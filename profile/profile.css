@@ -1,0 +1,58 @@
+body{
+    background-image: url("backgroud2.jpg");
+}
+.profilepic{
+    float: right;
+    width: auto;
+    height: 300px;
+    position: sticky;
+    margin: 20px;
+}
+.pic{
+    border-radius: 20px;
+    max-height: 300px;
+}
+.pic:hover{
+    transform: rotate(360deg);
+    transition: 2000ms ease-in-out;
+}
+.profile{
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(159, 2, 146);
+    font-size: 26px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 320px;
+    margin: 20px;
+}
+header{
+    font-size: 80px;
+    text-align: center;
+}
+.center{
+    display: flex;
+    align-content: flex-start;
+    margin:auto;
+    max-width: 1600px;
+}
+.fvlink{
+    float: center;
+    height: 50px;
+    width: 249.16px;
+    border-radius: 15px;
+    background-color: rgb(255, 237, 255);
+    border-color: rgb(231, 244, 255);
+    font-size: 20px;
+}
+.fvlink:hover{
+    background-color: rgb(201, 244, 254);
+}
+.vd{
+    width: 600px;
+    height: 340px;
+    margin: 20px;
+}
